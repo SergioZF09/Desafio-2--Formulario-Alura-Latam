@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Desafío 2 con HTML CSS y JS</title>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1 class="contenedor__titulo">Formulario de Encuesta</h1>
+        <div class="contenedor__formulario">
+            <label class="contenedor__formulario__pregunta">¿Cuál es tu nombre?</label>
+            <input class="contenedor__formulario__input" type="text" name="nombre" id="nombre">
+            <label class="contenedor__formulario__pregunta">¿Cuántos años tienes?</label>
+            <input class="contenedor__formulario__input" type="number" name="edad" id="edad">
+            <label class="contenedor__formulario__pregunta">¿Qué lenguaje de programación estás estudiando?</label>
+            <input class="contenedor__formulario__input" type="text" name="lenguaje" id="lenguaje">
+            <button class="contenedor__formulario__boton" onclick="mostrarInformacion();">Enviar</button>
+        </div>
+    </div>
+    <script src="./js/script.js" defer></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
